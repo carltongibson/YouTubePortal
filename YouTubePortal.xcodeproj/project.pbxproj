@@ -1,0 +1,274 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD3D14F915627E90002F33B8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3D14F815627E90002F33B8 /* UIKit.framework */; };
+		AD3D14FB15627E90002F33B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3D14FA15627E90002F33B8 /* Foundation.framework */; };
+		AD3D14FD15627E90002F33B8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD3D14FC15627E90002F33B8 /* CoreGraphics.framework */; };
+		AD3D150315627E90002F33B8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AD3D150115627E90002F33B8 /* InfoPlist.strings */; };
+		AD3D150515627E90002F33B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D150415627E90002F33B8 /* main.m */; };
+		AD3D150915627E90002F33B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D150815627E90002F33B8 /* AppDelegate.m */; };
+		AD3D150B15627E90002F33B8 /* YouTubePortal.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = AD3D150A15627E90002F33B8 /* YouTubePortal.entitlements */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD3D14F415627E90002F33B8 /* YouTubePortal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouTubePortal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3D14F815627E90002F33B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AD3D14FA15627E90002F33B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD3D14FC15627E90002F33B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD3D150015627E90002F33B8 /* YouTubePortal-Info.plist */ = {isa = PBXFileReference; path = "YouTubePortal-Info.plist"; sourceTree = "<group>"; };
+		AD3D150215627E90002F33B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AD3D150415627E90002F33B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD3D150615627E90002F33B8 /* YouTubePortal-Prefix.pch */ = {isa = PBXFileReference; path = "YouTubePortal-Prefix.pch"; sourceTree = "<group>"; };
+		AD3D150715627E90002F33B8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD3D150815627E90002F33B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD3D150A15627E90002F33B8 /* YouTubePortal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YouTubePortal.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3D14F115627E90002F33B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D14F915627E90002F33B8 /* UIKit.framework in Frameworks */,
+				AD3D14FB15627E90002F33B8 /* Foundation.framework in Frameworks */,
+				AD3D14FD15627E90002F33B8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD3D14E915627E90002F33B8 = {
+			isa = PBXGroup;
+			children = (
+				AD3D14FE15627E90002F33B8 /* YouTubePortal */,
+				AD3D14F715627E90002F33B8 /* Frameworks */,
+				AD3D14F515627E90002F33B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3D14F515627E90002F33B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D14F415627E90002F33B8 /* YouTubePortal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3D14F715627E90002F33B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D14F815627E90002F33B8 /* UIKit.framework */,
+				AD3D14FA15627E90002F33B8 /* Foundation.framework */,
+				AD3D14FC15627E90002F33B8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD3D14FE15627E90002F33B8 /* YouTubePortal */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D150715627E90002F33B8 /* AppDelegate.h */,
+				AD3D150815627E90002F33B8 /* AppDelegate.m */,
+				AD3D14FF15627E90002F33B8 /* Supporting Files */,
+			);
+			path = YouTubePortal;
+			sourceTree = "<group>";
+		};
+		AD3D14FF15627E90002F33B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD3D150015627E90002F33B8 /* YouTubePortal-Info.plist */,
+				AD3D150115627E90002F33B8 /* InfoPlist.strings */,
+				AD3D150415627E90002F33B8 /* main.m */,
+				AD3D150615627E90002F33B8 /* YouTubePortal-Prefix.pch */,
+				AD3D150A15627E90002F33B8 /* YouTubePortal.entitlements */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3D14F315627E90002F33B8 /* YouTubePortal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD3D150E15627E90002F33B8 /* Build configuration list for PBXNativeTarget "YouTubePortal" */;
+			buildPhases = (
+				AD3D14F015627E90002F33B8 /* Sources */,
+				AD3D14F115627E90002F33B8 /* Frameworks */,
+				AD3D14F215627E90002F33B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouTubePortal;
+			productName = YouTubePortal;
+			productReference = AD3D14F415627E90002F33B8 /* YouTubePortal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD3D14EB15627E90002F33B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Noumenal Software Ltd.";
+			};
+			buildConfigurationList = AD3D14EE15627E90002F33B8 /* Build configuration list for PBXProject "YouTubePortal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD3D14E915627E90002F33B8;
+			productRefGroup = AD3D14F515627E90002F33B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3D14F315627E90002F33B8 /* YouTubePortal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3D14F215627E90002F33B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D150315627E90002F33B8 /* InfoPlist.strings in Resources */,
+				AD3D150B15627E90002F33B8 /* YouTubePortal.entitlements in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3D14F015627E90002F33B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3D150515627E90002F33B8 /* main.m in Sources */,
+				AD3D150915627E90002F33B8 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD3D150115627E90002F33B8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3D150215627E90002F33B8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD3D150C15627E90002F33B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD3D150D15627E90002F33B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD3D150F15627E90002F33B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YouTubePortal/YouTubePortal.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTubePortal/YouTubePortal-Prefix.pch";
+				INFOPLIST_FILE = "YouTubePortal/YouTubePortal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AD3D151015627E90002F33B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = YouTubePortal/YouTubePortal.entitlements;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YouTubePortal/YouTubePortal-Prefix.pch";
+				INFOPLIST_FILE = "YouTubePortal/YouTubePortal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD3D14EE15627E90002F33B8 /* Build configuration list for PBXProject "YouTubePortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3D150C15627E90002F33B8 /* Debug */,
+				AD3D150D15627E90002F33B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD3D150E15627E90002F33B8 /* Build configuration list for PBXNativeTarget "YouTubePortal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD3D150F15627E90002F33B8 /* Debug */,
+				AD3D151015627E90002F33B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD3D14EB15627E90002F33B8 /* Project object */;
+}
