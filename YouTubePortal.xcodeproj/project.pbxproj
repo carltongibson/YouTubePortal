@@ -14,6 +14,7 @@
 		AD3D150515627E90002F33B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D150415627E90002F33B8 /* main.m */; };
 		AD3D150915627E90002F33B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D150815627E90002F33B8 /* AppDelegate.m */; };
 		AD3D150B15627E90002F33B8 /* YouTubePortal.entitlements in Resources */ = {isa = PBXBuildFile; fileRef = AD3D150A15627E90002F33B8 /* YouTubePortal.entitlements */; };
+		AD3D151915627F20002F33B8 /* YouTubePortalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3D151815627F20002F33B8 /* YouTubePortalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,13 +22,15 @@
 		AD3D14F815627E90002F33B8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		AD3D14FA15627E90002F33B8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AD3D14FC15627E90002F33B8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		AD3D150015627E90002F33B8 /* YouTubePortal-Info.plist */ = {isa = PBXFileReference; path = "YouTubePortal-Info.plist"; sourceTree = "<group>"; };
+		AD3D150015627E90002F33B8 /* YouTubePortal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YouTubePortal-Info.plist"; sourceTree = "<group>"; };
 		AD3D150215627E90002F33B8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AD3D150415627E90002F33B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AD3D150615627E90002F33B8 /* YouTubePortal-Prefix.pch */ = {isa = PBXFileReference; path = "YouTubePortal-Prefix.pch"; sourceTree = "<group>"; };
-		AD3D150715627E90002F33B8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD3D150615627E90002F33B8 /* YouTubePortal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YouTubePortal-Prefix.pch"; sourceTree = "<group>"; };
+		AD3D150715627E90002F33B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD3D150815627E90002F33B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		AD3D150A15627E90002F33B8 /* YouTubePortal.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = YouTubePortal.entitlements; sourceTree = "<group>"; };
+		AD3D151715627F20002F33B8 /* YouTubePortalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubePortalViewController.h; sourceTree = "<group>"; };
+		AD3D151815627F20002F33B8 /* YouTubePortalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubePortalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,8 @@
 			children = (
 				AD3D150715627E90002F33B8 /* AppDelegate.h */,
 				AD3D150815627E90002F33B8 /* AppDelegate.m */,
+				AD3D151715627F20002F33B8 /* YouTubePortalViewController.h */,
+				AD3D151815627F20002F33B8 /* YouTubePortalViewController.m */,
 				AD3D14FF15627E90002F33B8 /* Supporting Files */,
 			);
 			path = YouTubePortal;
@@ -158,6 +163,7 @@
 			files = (
 				AD3D150515627E90002F33B8 /* main.m in Sources */,
 				AD3D150915627E90002F33B8 /* AppDelegate.m in Sources */,
+				AD3D151915627F20002F33B8 /* YouTubePortalViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,7 +233,6 @@
 		AD3D150F15627E90002F33B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = YouTubePortal/YouTubePortal.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTubePortal/YouTubePortal-Prefix.pch";
 				INFOPLIST_FILE = "YouTubePortal/YouTubePortal-Info.plist";
@@ -239,7 +244,6 @@
 		AD3D151015627E90002F33B8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_ENTITLEMENTS = YouTubePortal/YouTubePortal.entitlements;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YouTubePortal/YouTubePortal-Prefix.pch";
 				INFOPLIST_FILE = "YouTubePortal/YouTubePortal-Info.plist";
