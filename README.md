@@ -7,9 +7,9 @@ We built this view controller for v1.1 of [Louis Armstrong: ‘West End Blues’
 
 Screenshots
 -----------
-<img src="youtube_wrap.png" alt="YouTube mobile website wrapped in modal view controller" />
+<img src="YouTubePortal/youtube_wrap.png" alt="YouTube mobile website wrapped in modal view controller" />
 
-<img src="fullscreen.png" alt="Video playing at fullscreen" />
+<img src="YouTubePortal/fullscreen.png" alt="Video playing at fullscreen" />
 
 Installation and Use
 --------------------
